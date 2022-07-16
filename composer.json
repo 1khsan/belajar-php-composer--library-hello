@@ -1,0 +1,19 @@
+{
+    "name": "ahmadihsan/belajar-php-composer-library",
+    "description": "belajar membuat library sederhana hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ahmad ihsanullah rabbani",
+            "email": "oplikhsan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BelajarComposer\\Belajar\\" : "src/"
+        }
+    }
+}
